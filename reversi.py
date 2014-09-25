@@ -19,7 +19,7 @@ def draw_board(board):
 
     os.system('cls')
 
-    print('     а   б   в   г   д   е   ж   з')
+    print('     а   б   в   г   д   е   ж   з') 
     print('   ┌───┬───┬───┬───┬───┬───┬───┬───┐')
 
     for y in range(BOARD_SIZE):
@@ -200,6 +200,7 @@ def get_score_of_board(board):
 
     Возвращаемое значение: словарь с количеством очков у обоих игроков.
     """
+
 
     black_score, white_score = 0, 0
 
